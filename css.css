@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.main-content {
+  width: 300px;
+  float: left;
+  padding: 10px;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+.content-image1 {
+  height: 150px;
+  background-image: url(../chapter9_exercise/img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.content-image2 {
+  height: 150px;
+  background-image: url(../chapter9_exercise/img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.content-image3 {
+  height: 150px;
+  background-image: url(../chapter9_exercise/img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-content:nth-child(2){
+  margin: 0 30px;
+}
+
+h3 {
+  margin: 10px 0 5px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.step-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FF9A4B;
+  color: #fff;
+}
+
+footer {
+  height: 50px;
+  background-color: #AAAAAA;
+}
